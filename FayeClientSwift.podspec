@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'FayeClientSwift'
-    s.version          = '0.2.0'
+    s.version          = '1.0.0'
     s.summary          = 'A Faye Cilent in Swift for iOS and OSX.'
 
 # This description is used to generate tags and improve search results.
@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-s.description      = <<-DESC
-    A Faye Cilent Library in Swift for the Faye (Bayeux) Pub-Sub messaging server.
-    Use the library to communicate with a Faye Server (https://faye.jcoglan.com) implementation of the Bayeux protocol.
-    Websocket transport supported.
-                        DESC
+    s.description      = <<-DESC
+                        A Faye Cilent Library in Swift for the Faye (Bayeux) Pub-Sub messaging server.
+                        Use the library to communicate with a Faye Server (https://faye.jcoglan.com) implementation of the Bayeux protocol.
+                        Websocket transport supported.
+                            DESC
 
     s.homepage         = 'https://github.com/Binlogo/FayeClientSwift'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -33,7 +33,7 @@ s.description      = <<-DESC
     s.ios.deployment_target = '8.0'
     s.tvos.deployment_target = "9.0"
 
-    s.source_files = 'Classes/*.swift'
+    s.source_files = 'FayeClientSwift/Classes/*.swift'
 
     s.dependency 'Starscream', '~> 2.0'
 end
