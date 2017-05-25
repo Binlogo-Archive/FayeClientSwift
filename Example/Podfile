@@ -6,8 +6,3 @@ target 'FayeCilentSwift_Example' do
     pod 'FayeCilentSwift', :path => '../'
 
 end
-
-target 'FayeCilentSwift_Tests' do
-    inherit! :search_paths
-    
-end
