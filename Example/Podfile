@@ -1,8 +1,11 @@
 use_frameworks!
 
-platform :ios, '8.0'
+target 'FayeClientSwift_Example' do
+  pod 'FayeClientSwift', :path => '../'
 
-target 'FayeCilentSwift_Example' do
-    pod 'FayeCilentSwift', :path => '../'
+  target 'FayeClientSwift_Tests' do
+    inherit! :search_paths
 
+    
+  end
 end

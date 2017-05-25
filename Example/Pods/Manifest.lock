@@ -1,0 +1,19 @@
+PODS:
+  - FayeClientSwift (0.1.0):
+    - Starscream (~> 2.0)
+  - Starscream (2.0.4)
+
+DEPENDENCIES:
+  - FayeClientSwift (from `../`)
+
+EXTERNAL SOURCES:
+  FayeClientSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FayeClientSwift: ba371ee3fef2251abf24789e061e2bbc7e1e7115
+  Starscream: df5974ee928b157c8eda8af8de7c620276b7dfcc
+
+PODFILE CHECKSUM: 4d32b84197a85629e71c97fb6e9077d11bc3f452
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module FayeClientSwift {
+  umbrella header "FayeClientSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

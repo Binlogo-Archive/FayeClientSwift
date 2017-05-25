@@ -1,9 +1,9 @@
-# FayeCilentSwift
+# FayeClientSwift
 
-[![CI Status](http://img.shields.io/travis/Binlogo/FayeCilentSwift.svg?style=flat)](https://travis-ci.org/Binlogo/FayeCilentSwift)
-[![Version](https://img.shields.io/cocoapods/v/FayeCilentSwift.svg?style=flat)](http://cocoapods.org/pods/FayeCilentSwift)
-[![License](https://img.shields.io/cocoapods/l/FayeCilentSwift.svg?style=flat)](http://cocoapods.org/pods/FayeCilentSwift)
-[![Platform](https://img.shields.io/cocoapods/p/FayeCilentSwift.svg?style=flat)](http://cocoapods.org/pods/FayeCilentSwift)
+[![CI Status](http://img.shields.io/travis/Binlogo/FayeClientSwift.svg?style=flat)](https://travis-ci.org/Binlogo/FayeClientSwift)
+[![Version](https://img.shields.io/cocoapods/v/FayeClientSwift.svg?style=flat)](http://cocoapods.org/pods/FayeClientSwift)
+[![License](https://img.shields.io/cocoapods/l/FayeClientSwift.svg?style=flat)](http://cocoapods.org/pods/FayeClientSwift)
+[![Platform](https://img.shields.io/cocoapods/p/FayeClientSwift.svg?style=flat)](http://cocoapods.org/pods/FayeClientSwift)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-FayeCilentSwift is available through [CocoaPods](http://cocoapods.org). To install
+FayeClientSwift is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "FayeCilentSwift"
+pod "FayeClientSwift"
 ```
 
 ## Author
@@ -26,4 +26,4 @@ Binlogo, binboy@live.com
 
 ## License
 
-FayeCilentSwift is available under the MIT license. See the LICENSE file for more info.
+FayeClientSwift is available under the MIT license. See the LICENSE file for more info.
