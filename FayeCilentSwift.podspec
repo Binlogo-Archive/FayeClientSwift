@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FayeCilentSwift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FayeCilentSwift.'
+  s.summary          = 'A Faye Cilent in Swift for iOS and OSX.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        A Faye Cilent Library in Swift for the Faye (Bayeux) Pub-Sub messaging server.
+                        Use the library to communicate with a Faye Server (https://faye.jcoglan.com) implementation of the Bayeux protocol.
+                        Websocket transport supported.
                        DESC
 
   s.homepage         = 'https://github.com/Binlogo/FayeCilentSwift'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Binlogo' => 'binboy@live.com' }
+  s.author           = { 'Binboy_王兴彬' => 'binboy@live.com' }
   s.source           = { :git => 'https://github.com/Binlogo/FayeCilentSwift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/binglogo'
 
+  s.osx.deployment_target = "10.10"
   s.ios.deployment_target = '8.0'
+  s.tvos.deployment_target = "9.0"
 
-  s.source_files = 'FayeCilentSwift/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FayeCilentSwift' => ['FayeCilentSwift/Assets/*.png']
-  # }
+  s.source_files = 'FayeCilentSwift/Classes/*.swift'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Starscream', '~> 2.0'
 end

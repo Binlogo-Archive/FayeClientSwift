@@ -1,12 +1,13 @@
 use_frameworks!
 
+platform :ios, '8.0'
+
 target 'FayeCilentSwift_Example' do
-  pod 'FayeCilentSwift', :path => '../'
+    pod 'FayeCilentSwift', :path => '../'
 
-  target 'FayeCilentSwift_Tests' do
+end
+
+target 'FayeCilentSwift_Tests' do
     inherit! :search_paths
-
-    pod 'Quick', '~> 1.0.0'
-  pod 'Nimble', '~> 5.1.1'
-  end
+    
 end

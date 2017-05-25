@@ -12,7 +12,6 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6205FB85DA2D506E32DA5CC3 /* Pods_FayeCilentSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595ED62137991EA431C486B8 /* Pods_FayeCilentSwift_Tests.framework */; };
 		9EFDF351818B01FD68012022 /* Pods_FayeCilentSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD3D6089093E063F8A8EB4D /* Pods_FayeCilentSwift_Example.framework */; };
 /* End PBXBuildFile section */
@@ -28,8 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B25AB5B9486A2F1EEDF8011 /* FayeCilentSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FayeCilentSwift.podspec; path = ../FayeCilentSwift.podspec; sourceTree = "<group>"; };
-		47672E6D56A3ED6BC9D78DFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2B25AB5B9486A2F1EEDF8011 /* FayeCilentSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FayeCilentSwift.podspec; path = ../FayeCilentSwift.podspec; sourceTree = "<group>"; };
+		47672E6D56A3ED6BC9D78DFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		494AEBC5219CF2C8ACF0D2C1 /* Pods-FayeCilentSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FayeCilentSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FayeCilentSwift_Tests/Pods-FayeCilentSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		595ED62137991EA431C486B8 /* Pods_FayeCilentSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FayeCilentSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FayeCilentSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FayeCilentSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,12 +39,10 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* FayeCilentSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FayeCilentSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7E20182C2ED5F261239707EC /* Pods-FayeCilentSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FayeCilentSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FayeCilentSwift_Tests/Pods-FayeCilentSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8AD3D6089093E063F8A8EB4D /* Pods_FayeCilentSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FayeCilentSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75DB48B5D7672CA7A9B07AA /* Pods-FayeCilentSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FayeCilentSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FayeCilentSwift_Example/Pods-FayeCilentSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B0563FD13F1ED9C464371841 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B0563FD13F1ED9C464371841 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D8C4079CFBE5FF2536700217 /* Pods-FayeCilentSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FayeCilentSwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FayeCilentSwift_Example/Pods-FayeCilentSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +71,6 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for FayeCilentSwift */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				65C74BEDC8C16C702C628F23 /* Pods */,
 				E4ABA2DC4EEADB76AE981892 /* Frameworks */,
@@ -108,23 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -370,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
